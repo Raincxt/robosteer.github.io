@@ -16,6 +16,10 @@
 | [video2robot](models/video2robot/README.md) | 参考脚本和教程 | 上游 video2robot、PromptHMR、GMR 与资源 |
 | [BFM-Zero](models/bfm_zero/README.md) | 参考教程和来源记录 | 未公开的项目适配脚本及上游资源 |
 
+## 相关评测数据
+
+[RoboSteer Evaluation 数据集](https://huggingface.co/datasets/PhoebeCC/RoboSteer_Evaluation) 提供与本目录所述方法相关的多模态评测数据，按层级、模态和任务组织。文件内容、校验值、恢复方法及许可信息见数据集页面。
+
 这些文件用于理解流程，并在自行取得依赖后开展适配。旧版详细教程中的命令记录历史运行，部分路径指向本公开版特意排除的文件。使用前先阅读相应模型目录的 `PUBLIC_SCOPE.md`。
 
 本仓库是文件资源集合，不提供 `load_dataset()` 表格接口。项目原创脚本与原创说明按[指定范围](LICENSE_SCOPE.md)适用 [MIT 许可证](LICENSE)；上游项目、权重、输入和生成结果不适用该授权。见[第三方说明](THIRD_PARTY_NOTICES.md)及各模型来源链接。[安装约定](docs/installation.md)说明当前参考版的边界。压缩包用相邻的 `.sha256` 核对；目录内 `SHA256SUMS` 仅覆盖其中列出的解包文件。
