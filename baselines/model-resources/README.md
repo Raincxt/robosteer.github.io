@@ -26,6 +26,10 @@ This repository publishes project-authored guides and reference scripts for nine
 | [video2robot](models/video2robot/README_EN.md) | Reference scripts and guides | Upstream video2robot, PromptHMR, GMR and resources |
 | [BFM-Zero](models/bfm_zero/README.md) | Reference guide and provenance | Unpublished project adapter and upstream resources |
 
+## Related evaluation data
+
+The [RoboSteer Evaluation dataset](https://huggingface.co/datasets/PhoebeCC/RoboSteer_Evaluation) provides multimodal evaluation assets associated with the methods documented here, organized by level, modality, and task. See its dataset card for file contents, checksums, restoration instructions, and licensing.
+
 The files are for inspecting workflows and adapting them with independently obtained dependencies. Commands in older detailed guides record historical runs; some refer to files deliberately excluded from this public edition. Start with each model's `PUBLIC_SCOPE.md` before using them.
 
 This is a file collection, not a `load_dataset()` table. Project-authored scripts and original documentation are available under the [MIT License](LICENSE) within the [stated scope](LICENSE_SCOPE.md). The MIT grant does not extend to upstream projects, weights, inputs, or generated results. Consult [third-party notices](THIRD_PARTY_NOTICES.md) and each model's source links. [Installation conventions](docs/installation.md) explain the reference-only status. Verify an archive with its adjacent `.sha256`; a directory `SHA256SUMS` covers only the listed unpacked files.
